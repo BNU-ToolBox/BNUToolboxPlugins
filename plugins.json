@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "plugins": [
+    {
+      "id": "bdata-autoplay",
+      "name": "BNU刷课",
+      "description": "统一获取师道云与 SPOC 课程，支持视频、测验和互动任务。",
+      "repository": "https://github.com/BNU-ToolBox/BTP-autoplay",
+      "metadata_url": "https://raw.githubusercontent.com/BNU-ToolBox/BTP-autoplay/main/plugin-release.json"
+    },
+    {
+      "id": "campus-network-auth",
+      "name": "校园网认证",
+      "description": "自动完成北师大校园网认证，可选独立开机自启。",
+      "repository": "https://github.com/BNU-ToolBox/BTP-NetworkAuth",
+      "metadata_url": "https://raw.githubusercontent.com/BNU-ToolBox/BTP-NetworkAuth/main/plugin-release.json"
+    },
+    {
+      "id": "course-grab",
+      "name": "教务抢课",
+      "description": "按专业筛选课程并轮询余量，自动提交选课。",
+      "repository": "https://github.com/BNU-ToolBox/BTP-CourseGrab",
+      "metadata_url": "https://raw.githubusercontent.com/BNU-ToolBox/BTP-CourseGrab/main/plugin-release.json"
+    }
+  ]
+}
